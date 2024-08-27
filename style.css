@@ -1,0 +1,53 @@
+body{
+    background: url("https://4kwallpapers.com/images/wallpapers/3d-background-squares-purple-light-metal-aesthetic-3840x2160-2700.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Poppins";
+}
+
+.container{
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 3em 2em;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    background: linear-gradient(149.62deg, rgba(217, 217, 217, 0.14) 1.38%, rgba(255, 255, 255, 0.03) 97.92%);
+    backdrop-filter: blur(22.5px);
+    border-radius: 1px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.enter{
+    font-size: 1.2rem;
+}
+.input{
+    height: 2em;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 1em;
+    color: white;
+    font-size: 1.2em;
+    margin-top: .7em;  
+}
+.submitBtn{
+    margin-top: 1.5em;
+    width: 30%;
+    padding:1em 2em;
+    cursor: pointer;
+    border-radius: 5px;   
+    border: 0;
+    font-weight: 700;
+}
